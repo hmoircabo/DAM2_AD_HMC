@@ -6,6 +6,7 @@
 		<head><title>e63</title></head>
 		<body>
 			<h3><b><u>Numero aleatorio entre 100 y 200, ambos inclusive</u></b></h3>
-			<h1> <?php echo $random ?></h1>
+			<h1> <?php echo $random.", ".gettype($random) ?>
+			</h1>
 		</body>
 	</html>
