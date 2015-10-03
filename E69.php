@@ -3,7 +3,10 @@
 	$realcen = -1000 + mt_rand()/mt_getrandmax()*2000;
 	$decimals = floor($realcen*1000)/1000;
 	$decens = floor($realcen/10)*10;
+
+	
 ?>
+
 	<html>
 		<head><title>e69</title></head>
 		<body>
