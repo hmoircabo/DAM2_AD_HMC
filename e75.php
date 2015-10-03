@@ -1,6 +1,6 @@
 <?php 
 
-	$random = mt_rand(100,200)
+	$random = mt_rand(1,100)
 	
 ?>
 	
@@ -20,7 +20,7 @@
 
 		</style>
 		
-			<h3><b><u>Numero aleatorio entre 100 y 200, ambos inclusive</u></b></h3>
+			<h3><b><u>Numero aleatorio entre 1 y 100, ambos inclusive</u></b></h3>
 			
 			<input class="numeros" type="text" name="number" readonly="readonly"  value=<?php echo $random ?> >
 			

@@ -1,6 +1,6 @@
 <?php 
 
-	$random = mt_rand(100,200)
+	$random = mt_rand(100,200);
 ?>
 	<html>
 		<head><title>e63</title></head>

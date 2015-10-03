@@ -1,7 +1,8 @@
 <?php 
 	
 	$random = mt_rand(100,200);
-	$number = &$random
+	$number = $random;
+	
 ?>
 	<html>
 		<head><title>e64</title></head>
