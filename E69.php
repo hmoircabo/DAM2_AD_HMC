@@ -2,7 +2,7 @@
 	$real = mt_rand()/mt_getrandmax();
 	$realcen = -1000 + mt_rand()/mt_getrandmax()*2000;
 	$decimals = floor($realcen*1000)/1000;
-	$decens = floor($realcen/10)*10;
+	$decens = floor(round($realcen/10))*10;
 
 	
 ?>
